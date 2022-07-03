@@ -1,0 +1,370 @@
+/*******Header********/
+
+.header {}
+
+.navbar {
+    width: calc(99% - 6px);
+    background-color: black;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.header-list {
+    display: inline-flex;
+    padding-left: 0;
+    list-style: none;
+    margin: 0;
+}
+
+.header-item {
+    color: #fff;
+    padding: 16px 24px;
+    font-size: 15px;
+    font-family: 'sans-serif';
+    text-transform: uppercase;
+    cursor: pointer;
+    ;
+}
+
+.header-icon-down {
+    margin-left: 5px;
+    font-size: 8.58px;
+}
+
+.header-item:hover {
+    background: rgb(190, 189, 189);
+}
+
+.header-icon-search {
+    color: #fff;
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    height: 100%;
+    width: 62px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-icon-search:hover {
+    background-color: #f44336;
+}
+
+.header-icon:hover {
+    background-color: rgb(190, 189, 189);
+}
+
+
+/*******Introduction********/
+
+.intro-img {
+    width: 100%;
+    position: relative;
+}
+
+.intro-text {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-family: 'Lato', 'sans-serif';
+}
+
+.intro-header {
+    text-align: center;
+}
+
+
+/**********Describle*******/
+
+.describle {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-bottom: 96px;
+}
+
+.describle-box {
+    padding: 64px 16px;
+}
+
+.describle-sub-header {
+    color: #9b9b9b;
+    font-style: italic;
+}
+
+.describle-body {
+    text-align: justify;
+    margin: 15px 0;
+}
+
+.describle-img {
+    width: 154px;
+    border-radius: 4px;
+}
+
+.describle-col {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.row p {
+    text-align: center;
+}
+
+
+/*****Ticket*****/
+
+.ticket-background {
+    background-color: #000;
+}
+
+.ticket {
+    padding: 64px 16px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.ticket-list {
+    padding-left: 0;
+    list-style: none;
+    color: #333;
+}
+
+.ticket-item {
+    display: block;
+    width: 96%;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 8px 8px;
+    margin-left: 8px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.ticket-sell {
+    display: inline-block;
+    padding: 0 8px;
+    background-color: #f44336;
+    margin-left: 16px;
+    font-size: 15px;
+    line-height: 1.4;
+    color: #fff;
+}
+
+.ticket-quantity {
+    color: #fff;
+    background-color: #000;
+    border-radius: 50%;
+    float: right;
+    margin-right: 16px;
+    padding: 0 8px;
+    display: flex;
+    align-items: center;
+}
+
+.ticket-place-list {
+    padding: 32px 8px;
+}
+
+.ticket-place {
+    background-color: #fff;
+}
+
+.ticket-place-body p {
+    color: #000;
+    display: block;
+    text-align: left;
+}
+
+.ticket-place-img {
+    width: 100%
+}
+
+.ticket-place-body {
+    text-align: left;
+    background-color: #fff;
+    padding: 0 16px;
+}
+
+.ticket-place-header {
+    font-weight: 600;
+}
+
+.ticket-buy {
+    margin-bottom: 16px;
+    padding: 8px 16px;
+    margin-left: 16px;
+}
+
+
+/*********Contact********/
+
+.contact {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 64px 0;
+}
+
+.contact-sub-header {
+    opacity: 0.6;
+    font-style: italic;
+}
+
+.contact-body {
+    padding: 32px 0;
+}
+
+.contact-infor {}
+
+.contact-infor-item {
+    display: block;
+    padding: 4px 12px;
+}
+
+.contact-item-icon {
+    width: 30px;
+    display: inline-block;
+}
+
+.contact-fill-name {
+    padding: 11px 8px;
+    border: 1px solid #ccc;
+}
+
+.contact-fill-email {
+    padding: 11px 8px;
+    border: 1px solid #ccc;
+}
+
+.contact-fill-message {
+    padding: 11px 8px;
+    width: calc(100% - 20px);
+    border: 1px solid #ccc;
+}
+
+.col-contact-message {
+    width: 100%;
+}
+
+.row-contact-message {
+    padding-top: 8px;
+}
+
+.contact-fill-send {
+    padding: 8px 16px;
+    margin: 16px 0;
+    display: block;
+    width: 40px;
+    float: right;
+}
+
+.contact-map {
+    width: 100%;
+}
+
+
+/********Footer*********/
+
+.footer {
+    display: flex;
+}
+
+.footer-box {
+    padding: 64px 16px;
+    margin: auto;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #666;
+    font-size: 20px;
+}
+
+
+/***********Buy ticket********/
+
+.ticket-register {
+    width: 900px;
+    /* background-color: aqua; */
+    /* position: relative;
+    top: 50%; */
+    margin: auto;
+}
+
+.register-header {
+    text-align: center;
+    padding: 51px 16px;
+    background-color: #009688;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 0;
+}
+
+.register-container {
+    padding: 0 16px;
+    background-color: #fff;
+    padding-bottom: 16px;
+}
+
+.register-label {
+    margin: 0;
+    padding: 18px 0 10px;
+}
+
+.register-label-icon {
+    width: 14px;
+    margin-right: 3px;
+}
+
+.register-quantity {
+    padding: 8px;
+    width: calc(98% - 3px);
+}
+
+.register-email {
+    padding: 8px;
+    width: calc(98% - 3px);
+    margin-bottom: 16px;
+}
+
+.register-pay {
+    display: block;
+    padding: 16px;
+    width: 100%;
+    text-transform: uppercase;
+    background-color: #009688;
+}
+
+.register-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.register-close {
+    display: block;
+    margin-top: 32px;
+    padding: 8px 16px;
+    background-color: #f44336 !important;
+    height: 38.5px;
+}
+
+.register-help {
+    display: flex;
+    justify-self: end;
+    position: relative;
+    right: 0;
+    top: 32px;
+    align-items: center;
+    height: 38.5px;
+}
+
+.register-help-link {
+    margin-left: 2px;
+}
