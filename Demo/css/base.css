@@ -1,0 +1,100 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --header-height: 140px;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    /* font-family: 'Roboto', sans-serif; */
+    box-sizing: border-box;
+}
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.grid__column-2 {
+    padding: 0 12px;
+    width: 16.667%;
+}
+
+.grid__column-10 {
+    padding: 0 12px;
+    width: 83.334%;
+}
+
+.grid__column-product {
+    padding: 0 12px;
+    width: 20%;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes growth {
+    form {
+        opacity: 0;
+        transform: scale(0.2);
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+/*********Box form*********/
+
+.btn {
+    min-width: 100px;
+    height: 25px;
+    border: 1px;
+    font-size: 1.2rem;
+    background-color: rgb(221, 220, 220);
+    border-radius: 2px;
+    font-weight: 500;
+    font-size: 1.4rem;
+    display: inline-block;
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+.btn--primary {
+    background-color: #f53e2d;
+    color: #fff;
+    font-weight: 300;
+}
+
+.btn__with-icon {
+    border: none;
+    width: 150px;
+    height: 25px;
+    border-radius: 2px;
+    position: relative;
+}

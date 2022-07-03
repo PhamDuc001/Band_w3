@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Training</title>
+    <link rel="stylesheet" href="./css/fontawesome-free-6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="icon" type="image/icon" href="https://uet.vnu.edu.vn/wp-content/uploads/2017/02/uet_logo-50x50.png" </head>
+
+    <body>
+        <div class="app">
+            <header class="header">
+                <div class="grid">
+                    <nav class="header__navbar">
+                        <ul class="header__list">
+                            <li class="header__item header_qr-fadeIn header__item-separator">
+                                Vào lớp học
+                                <div class="box__qr ">
+                                    <img src="./image/QR_Code.png" alt="QR-CODE" class="box__qr-code">
+                                    <div class="box__qr-download">
+                                        <a href="" class="box__qr-link">
+                                            <img src="./image/CH-Play.png" alt="CH-Play" class="box__qr-link-img1">
+                                        </a>
+                                        <a href="" class="box__qr-link">
+                                            <img src="./image/AppStore.png" alt="AppStore" class="box__qr-link-img2">
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="header__item">
+                                <span class="noPointer"> Kết nối</span>
+                                <a href="https://www.facebook.com/ducpt001" class="header__item-icon-link">
+                                    <i class=" header__item-icon fa-brands fa-facebook"></i>
+                                    <div class="box__avt">
+                                        <img src="./image/avt.jpg" alt="Avatar" class="box__avt-img">
+                                    </div>
+                                </a>
+                                <a href="" class="header__item-icon-link">
+                                    <i class="header__item-icon fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- ***********Title************ -->
+                        <ul class="box__title">
+                            <div class="box__title-text">
+                                <a href="https://uet.vnu.edu.vn/" class="title">Trường đại học Công nghệ</a>
+                            </div>
+                            <div class="box__title-img">
+                                <img src="./image/uet.png" alt="" class="title-img">
+
+                            </div>
+                        </ul>
+                        <ul class="header__list-right">
+                            <li class="header__item fadeIn__notify">
+                                <a href="" class="header__item header__item-link ">
+                                    <i class="header__item-icon-link fa-solid fa-bell"></i> Thông báo
+                                </a>
+                                <!-- Notify item1 -->
+                                <div class="box__notify">
+                                    <header class="box__notify-header">
+                                        <p> Bảng thông báo</p>
+                                    </header>
+                                    <ul class="box__notify-list">
+                                        <li class="box__notify-item">
+                                            <a href="" class="box__notify-link">
+                                                <img src="./image/notify_icon.png" alt="" class="box__notify-icon">
+                                                <div class="box__notify-info">
+                                                    <div class="box__notify-name">Phạm Trung Đức</div>
+                                                    <div class="box__notify-description">Sinh viên trường đại học Công nghệ-Đại học quốc gia Hà Nội, sinh năm 2001, tỉnh Hà Nam.</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <!-- Notify item 2 -->
+                                        <li class="box__notify-item">
+                                            <a href="" class="box__notify-link">
+                                                <img src="./image/notify_icon2.jpg" alt="" class="box__notify-icon">
+                                                <div class="box__notify-info">
+                                                    <div class="box__notify-name">Nghiêm Đình Duy</div>
+                                                    <div class="box__notify-description">Sinh viên trường đại học Kinh tế -Đại học quốc gia Hà Nội, sinh năm 2002, tỉnh Bắc Ninh.</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <!-- Notify item 3 -->
+                                        <li class="box__notify-item">
+                                            <a href="" class="box__notify-link">
+                                                <img src="./image/notify_icon3.png" alt="" class="box__notify-icon">
+                                                <div class="box__notify-info">
+                                                    <div class="box__notify-name">Nguyễn Hồng Cường</div>
+                                                    <div class="box__notify-description">Sinh viên trường đại học Ngoại ngữ-Đại học quốc gia Hà Nội, sinh năm 2003, tỉnh Hải Dương.</div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <div class="box__notify-footer">
+                                        <!-- <p class="box__notify-footer-detail">Xem tất cả</p> -->
+                                        <a href="" class="box__notify-footer-detail">Xem tất cả</a>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="header__item">
+                                <a href="" class="header__item header__item-link ">
+                                    <i class="header__item-icon-link fa-solid fa-circle-question"></i> Trợ giúp
+                                </a>
+                            </li>
+
+                            <!-- <li class="header__item header__item-strong growth__register">Đăng ký</li>
+                            <li class="header__item header__item-strong">Đăng nhập</li> -->
+                            <li class="header__user-box">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Windows_Settings_app_icon.png/1024px-Windows_Settings_app_icon.png" alt="" class="header__user-img">
+                                <div class="header__user-name js-header__user-name">Phạm Đức</div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header__box-search">
+                    <div class="header__container-search">
+                        <div class="header__search-wrap">
+                            <input type="text" class="header__input-search" placeholder="Nhập để tìm kiếm">
+                            <div class="header__search-box-history">
+                                <h4 class="header__search-history-header">Lịch sử tìm kiếm</h4>
+                                <ul class="header__search-history-list">
+                                    <a href="" class="header__search-history-item">
+                                        <p class="history-item-name">Kem dưỡng da</p>
+                                    </a>
+                                    <a href="" class="header__search-history-item">
+                                        <p class="history-item-name">Dầu gội đầu</p>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="header__box-option">
+                            <div class="header__box-option-seperator"></div>
+                            <span class="header__option-title">Trong shop</span>
+                            <div class="header__option-icon">
+                                <i class="option-icon-descible fa-solid fa-chevron-down"></i>
+                            </div>
+                            <ul class="header__box-select">
+                                <li class="header__select-item">
+                                    <span class="header__select-item-title">Trong shop</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+                                <li class="header__select-item">
+                                    <span class="header__select-item-title">Ngoài shop</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="header__box-glass">
+                            <i class="glass-describle fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </header>
+            <div class="container" style="background-color: rgb(218, 209, 209) ;">
+                <div class="grid">
+                    <div class="grid__row">
+                        <div class="grid__column-2">
+                            <nav class="category">
+
+                                <h3 class="category__heading">
+                                    <i class="category__heading-icon fa-solid fa-list-ul"></i> Danh mục
+                                </h3>
+                                <ul class="category__list">
+                                    <li class="category__item category__item-active">
+
+                                        <a href="" class="category__link ">Trang điểm mặt</a>
+                                    </li>
+                                    <li class="category__item ">
+                                        <a href="" class="category__link">Thuốc giảm cân</a>
+                                    </li>
+                                    <li class="category__item ">
+                                        <a href="" class="category__link">Thời trang trẻ em</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="grid__column-10 ">
+                            <div class="home-filter home__wrap">
+                                <button class="btn ">Sắp xếp theo</button>
+                                <button class="btn ">Phổ biến</button>
+                                <button class="btn home-filter-new">Mới nhất</button>
+                                <button class="btn ">Bán chạy</button>
+                                <button class="btn home__price">
+                                    <span class=" home__price-label">Giá
+                                        <ul class="home__price-list">
+                                            <li class="home__price-item">Giá: Từ thấp đến cao</li>
+                                            <li class="home__price-item">Giá: Từ cao đến thấp</li>
+                                        </ul>
+                                    </span>
+                                    <i class="home__price-icon fa-solid fa-caret-down"></i> 
+                                </button>
+
+                                <div class="home-filter-page">
+                                    <div class="page__number">
+                                        <span class="page__number-current">1</span>
+                                        <span class="page__number-all">/14</span>
+                                    </div>
+                                    <i class="page__number-icon-left fa-solid fa-caret-left"></i>
+                                    <i class="page__number-icon-right fa-solid fa-caret-right"></i>
+                                </div>
+                            </div>
+                            <div class="home-product">
+                                <div class="grid__row">
+                                    <!-- Product item -->
+                                    <div class="grid__column-product">
+                                        <div class="product__item">
+                                            <div class="product__item-img" style="background-image: url(https://i.pinimg.com/736x/38/33/ce/3833ce0e9e8a20bc54484da40e3a3670.jpg);"></div>
+                                            <div class="product__item-name">Áo Polo nam tay ngắn, thiết kế phong cách năng động, trẻ trung, chất liệu thoải mái</div>
+                                            <div class="product__item-price">
+                                                <span class="product__item-price-old">360.000đ</span>
+                                                <span class="product__item-price-current">165.000đ</span>
+                                            </div>
+                                            <div class="product__item-active product__item-worked">
+                                                <i class="product__item-active-liked fa-solid fa-heart"></i>
+                                                <i class="product__item-active-origin fa-regular fa-heart"></i>
+                                                <div class="product__item-sell">
+                                                    <span class="product__item-number-sell">10</span> Đã bán
+                                                </div>
+                                                <div class="product__item-active-rate">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <div class="product__item-source">
+                                                <span class="product__item-brand">Honda</span>
+                                                <span class="product__item-country">Việt Nam</span>
+                                            </div>
+                                            <div class="product__item-favourite">
+                                                <i class="fa-solid fa-check"></i> Yêu thích
+                                            </div>
+                                            <div class="product__item-sale">
+                                                <span class="product__item-sale-percent">10%</span>
+                                                <span class="product__item-sale-label">Giảm</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="grid__column-product">
+                                        <div class="product__item">
+                                            <div class="product__item-img" style="background-image: url(https://i.pinimg.com/736x/38/33/ce/3833ce0e9e8a20bc54484da40e3a3670.jpg);"></div>
+                                            <div class="product__item-name">Áo Polo nam tay ngắn, thiết kế phong cách năng động, trẻ trung, chất liệu thoải mái</div>
+                                            <div class="product__item-price">
+                                                <span class="product__item-price-old">360.000đ</span>
+                                                <span class="product__item-price-current">165.000đ</span>
+                                            </div>
+                                            <div class="product__item-active product__item-worked">
+                                                <i class="product__item-active-liked fa-solid fa-heart"></i>
+                                                <i class="product__item-active-origin fa-regular fa-heart"></i>
+                                                <div class="product__item-active-rate">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <div class="product__item-source">
+                                                <span class="product__item-brand">Honda</span>
+                                                <span class="product__item-country">Việt Nam</span>
+                                            </div>
+                                            <div class="product__item-favourite">
+                                                <i class="fa-solid fa-check"></i> Yêu thích
+                                            </div>
+                                            <div class="product__item-sale">
+                                                <span class="product__item-sale-percent">10%</span>
+                                                <span class="product__item-sale-label">Giảm</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="grid__column-product">
+                                        <div class="product__item">
+                                            <div class="product__item-img" style="background-image: url(https://i.pinimg.com/736x/38/33/ce/3833ce0e9e8a20bc54484da40e3a3670.jpg);"></div>
+                                            <div class="product__item-name">Áo Polo nam tay ngắn, thiết kế phong cách năng động, trẻ trung, chất liệu thoải mái</div>
+                                            <div class="product__item-price">
+                                                <span class="product__item-price-old">360.000đ</span>
+                                                <span class="product__item-price-current">165.000đ</span>
+                                            </div>
+                                            <div class="product__item-active product__item-worked">
+                                                <i class="product__item-active-liked fa-solid fa-heart"></i>
+                                                <i class="product__item-active-origin fa-regular fa-heart"></i>
+                                                <div class="product__item-active-rate">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <div class="product__item-source">
+                                                <span class="product__item-brand">Honda</span>
+                                                <span class="product__item-country">Việt Nam</span>
+                                            </div>
+                                            <div class="product__item-favourite">
+                                                <i class="fa-solid fa-check"></i> Yêu thích
+                                            </div>
+                                            <div class="product__item-sale">
+                                                <span class="product__item-sale-percent">10%</span>
+                                                <span class="product__item-sale-label">Giảm</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="grid__column-product">
+                                        <div class="product__item">
+                                            <div class="product__item-img" style="background-image: url(https://i.pinimg.com/736x/38/33/ce/3833ce0e9e8a20bc54484da40e3a3670.jpg);"></div>
+                                            <div class="product__item-name">Áo Polo nam tay ngắn, thiết kế phong cách năng động, trẻ trung, chất liệu thoải mái</div>
+                                            <div class="product__item-price">
+                                                <span class="product__item-price-old">360.000đ</span>
+                                                <span class="product__item-price-current">165.000đ</span>
+                                            </div>
+                                            <div class="product__item-active product__item-worked">
+                                                <i class="product__item-active-liked fa-solid fa-heart"></i>
+                                                <i class="product__item-active-origin fa-regular fa-heart"></i>
+                                                <div class="product__item-active-rate">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <div class="product__item-source">
+                                                <span class="product__item-brand">Honda</span>
+                                                <span class="product__item-country">Việt Nam</span>
+                                            </div>
+                                            <div class="product__item-favourite">
+                                                <i class="fa-solid fa-check"></i> Yêu thích
+                                            </div>
+                                            <div class="product__item-sale">
+                                                <span class="product__item-sale-percent">10%</span>
+                                                <span class="product__item-sale-label">Giảm</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="grid__column-product">
+                                        <div class="product__item">
+                                            <div class="product__item-img" style="background-image: url(https://i.pinimg.com/736x/38/33/ce/3833ce0e9e8a20bc54484da40e3a3670.jpg);"></div>
+                                            <div class="product__item-name">Áo Polo nam tay ngắn, thiết kế phong cách năng động, trẻ trung, chất liệu thoải mái</div>
+                                            <div class="product__item-price">
+                                                <span class="product__item-price-old">360.000đ</span>
+                                                <span class="product__item-price-current">165.000đ</span>
+                                            </div>
+                                            <div class="product__item-active product__item-worked">
+                                                <i class="product__item-active-liked fa-solid fa-heart"></i>
+                                                <i class="product__item-active-origin fa-regular fa-heart"></i>
+                                                <div class="product__item-active-rate">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <div class="product__item-source">
+                                                <span class="product__item-brand">Honda</span>
+                                                <span class="product__item-country">Việt Nam</span>
+                                            </div>
+                                            <div class="product__item-favourite">
+                                                <i class="fa-solid fa-check"></i> Yêu thích
+                                            </div>
+                                            <div class="product__item-sale">
+                                                <span class="product__item-sale-percent">10%</span>
+                                                <span class="product__item-sale-label">Giảm</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="grid__column-product">
+                                        <div class="product__item">
+                                            <div class="product__item-img" style="background-image: url(https://i.pinimg.com/736x/38/33/ce/3833ce0e9e8a20bc54484da40e3a3670.jpg);"></div>
+                                            <div class="product__item-name">Áo Polo nam tay ngắn, thiết kế phong cách năng động, trẻ trung, chất liệu thoải mái</div>
+                                            <div class="product__item-price">
+                                                <span class="product__item-price-old">360.000đ</span>
+                                                <span class="product__item-price-current">165.000đ</span>
+                                            </div>
+                                            <div class="product__item-active product__item-worked">
+                                                <i class="product__item-active-liked fa-solid fa-heart"></i>
+                                                <i class="product__item-active-origin fa-regular fa-heart"></i>
+                                                <div class="product__item-active-rate">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <div class="product__item-source">
+                                                <span class="product__item-brand">Honda</span>
+                                                <span class="product__item-country">Việt Nam</span>
+                                            </div>
+                                            <div class="product__item-favourite">
+                                                <i class="fa-solid fa-check"></i> Yêu thích
+                                            </div>
+                                            <div class="product__item-sale">
+                                                <span class="product__item-sale-percent">10%</span>
+                                                <span class="product__item-sale-label">Giảm</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="grid__column-product">
+                                        <div class="product__item">
+                                            <div class="product__item-img" style="background-image: url(https://i.pinimg.com/736x/38/33/ce/3833ce0e9e8a20bc54484da40e3a3670.jpg);"></div>
+                                            <div class="product__item-name">Áo Polo nam tay ngắn, thiết kế phong cách năng động, trẻ trung, chất liệu thoải mái</div>
+                                            <div class="product__item-price">
+                                                <span class="product__item-price-old">360.000đ</span>
+                                                <span class="product__item-price-current">165.000đ</span>
+                                            </div>
+                                            <div class="product__item-active product__item-worked">
+                                                <i class="product__item-active-liked fa-solid fa-heart"></i>
+                                                <i class="product__item-active-origin fa-regular fa-heart"></i>
+                                                <div class="product__item-active-rate">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <div class="product__item-source">
+                                                <span class="product__item-brand">Honda</span>
+                                                <span class="product__item-country">Việt Nam</span>
+                                            </div>
+                                            <div class="product__item-favourite">
+                                                <i class="fa-solid fa-check"></i> Yêu thích
+                                            </div>
+                                            <div class="product__item-sale">
+                                                <span class="product__item-sale-percent">10%</span>
+                                                <span class="product__item-sale-label">Giảm</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="grid__column-product">
+                                        <div class="product__item">
+                                            <div class="product__item-img" style="background-image: url(https://i.pinimg.com/736x/38/33/ce/3833ce0e9e8a20bc54484da40e3a3670.jpg);"></div>
+                                            <div class="product__item-name">Áo Polo nam tay ngắn, thiết kế phong cách năng động, trẻ trung, chất liệu thoải mái</div>
+                                            <div class="product__item-price">
+                                                <span class="product__item-price-old">360.000đ</span>
+                                                <span class="product__item-price-current">165.000đ</span>
+                                            </div>
+                                            <div class="product__item-active product__item-worked">
+                                                <i class="product__item-active-liked fa-solid fa-heart"></i>
+                                                <i class="product__item-active-origin fa-regular fa-heart"></i>
+                                                <div class="product__item-active-rate">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <div class="product__item-source">
+                                                <span class="product__item-brand">Honda</span>
+                                                <span class="product__item-country">Việt Nam</span>
+                                            </div>
+                                            <div class="product__item-favourite">
+                                                <i class="fa-solid fa-check"></i> Yêu thích
+                                            </div>
+                                            <div class="product__item-sale">
+                                                <span class="product__item-sale-percent">10%</span>
+                                                <span class="product__item-sale-label">Giảm</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="grid__column-product">
+                                        <div class="product__item">
+                                            <div class="product__item-img" style="background-image: url(https://i.pinimg.com/736x/38/33/ce/3833ce0e9e8a20bc54484da40e3a3670.jpg);"></div>
+                                            <div class="product__item-name">Áo Polo nam tay ngắn, thiết kế phong cách năng động, trẻ trung, chất liệu thoải mái</div>
+                                            <div class="product__item-price">
+                                                <span class="product__item-price-old">360.000đ</span>
+                                                <span class="product__item-price-current">165.000đ</span>
+                                            </div>
+                                            <div class="product__item-active product__item-worked">
+                                                <i class="product__item-active-liked fa-solid fa-heart"></i>
+                                                <i class="product__item-active-origin fa-regular fa-heart"></i>
+                                                <div class="product__item-active-rate">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <div class="product__item-source">
+                                                <span class="product__item-brand">Honda</span>
+                                                <span class="product__item-country">Việt Nam</span>
+                                            </div>
+                                            <div class="product__item-favourite">
+                                                <i class="fa-solid fa-check"></i> Yêu thích
+                                            </div>
+                                            <div class="product__item-sale">
+                                                <span class="product__item-sale-percent">10%</span>
+                                                <span class="product__item-sale-label">Giảm</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="grid__column-product">
+                                        <div class="product__item">
+                                            <div class="product__item-img" style="background-image: url(https://i.pinimg.com/736x/38/33/ce/3833ce0e9e8a20bc54484da40e3a3670.jpg);"></div>
+                                            <div class="product__item-name">Áo Polo nam tay ngắn, thiết kế phong cách năng động, trẻ trung, chất liệu thoải mái</div>
+                                            <div class="product__item-price">
+                                                <span class="product__item-price-old">360.000đ</span>
+                                                <span class="product__item-price-current">165.000đ</span>
+                                            </div>
+                                            <div class="product__item-active product__item-worked">
+                                                <i class="product__item-active-liked fa-solid fa-heart"></i>
+                                                <i class="product__item-active-origin fa-regular fa-heart"></i>
+                                                <div class="product__item-active-rate">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <div class="product__item-source">
+                                                <span class="product__item-brand">Honda</span>
+                                                <span class="product__item-country">Việt Nam</span>
+                                            </div>
+                                            <div class="product__item-favourite">
+                                                <i class="fa-solid fa-check"></i> Yêu thích
+                                            </div>
+                                            <div class="product__item-sale">
+                                                <span class="product__item-sale-percent">10%</span>
+                                                <span class="product__item-sale-label">Giảm</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /********Pagination***********/ -->
+                                <div class="pagination">
+                                    <ul class="pagination__list">
+                                        <li class="pagination__item ">
+                                            <a href="#" class="pagination__link">
+                                                <i class="fa-solid fa-chevron-left"></i>
+                                            </a>
+                                        </li>
+                                        <li class="pagination__item pagination__item-active">
+                                            <a href="#" class="pagination__link">
+                                                1
+                                            </a>
+                                        </li>
+                                        <li class="pagination__item">
+                                            <a href="#" class="pagination__link">
+                                                2
+                                            </a>
+                                        </li>
+                                        <li class="pagination__item">
+                                            <a href="#" class="pagination__link">
+                                                3
+                                            </a>
+                                        </li>
+                                        <li class="pagination__item">
+                                            <a href="#" class="pagination__link">
+                                                ...
+                                            </a>
+                                        </li>
+                                        <li class="pagination__item">
+                                            <a href="#" class="pagination__link">
+                                               10
+                                            </a>
+                                        </li>
+                                        <li class="pagination__item">
+                                            <a href="#" class="pagination__link">
+                                                <i class="fa-solid fa-chevron-right"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <footer class="footer">
+                <div class="grid">
+                    <div class="grid__row">
+                        <div class="grid__column-product">
+                            <div class="footer__header">
+                                Chăm sóc khách hàng
+                            </div>
+                            <ul class="footer__list">
+                                <li class="footer__item">
+                                    <a href="#" class="footer__item-text"> Trung tâm trợ giúp</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#" class="footer__item-text"> Hướng dẫn mua hàng</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#" class="footer__item-text"> Chăm sóc khách hàng</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="grid__column-product">
+                            <div class="footer__header">
+                                Về trang chủ
+                            </div>
+                            <ul class="footer__list">
+                                <li class="footer__item">
+                                    <a href="#" class="footer__item-text"> Giới thiệu chung</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#" class="footer__item-text"> Tuyển dụng</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#" class="footer__item-text"> Liên hệ với truyền thông</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="grid__column-product">
+                            <div class="footer__header">
+                                Thanh toán
+                            </div>
+                            <ul class="footer__list">
+                                <li class="footer__item">
+                                    <a href="#" class="footer__item-text"> Visa</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#" class="footer__item-text"> Shopee pay</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#" class="footer__item-text"> Trả góp</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="grid__column-product">
+                            <div class="footer__header">
+                                Theo dõi chúng tôi
+                            </div>
+                            <ul class="footer__list">
+                                <li class="footer__item">
+
+                                    <a href="#" class="footer__item-text">
+                                        <i class="fa-brands fa-facebook"></i> Facebook
+                                    </a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#" class="footer__item-text">
+                                        <i class="fa-brands fa-instagram"></i> Instargram
+                                    </a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#" class="footer__item-text">
+                                        <i class="fa-brands fa-linkedin"></i> Linkedln
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="grid__column-product">
+                            <div class="footer__header">
+                                Tải ứng dụng tại
+                            </div>
+                            <div class="footer__link">
+                                <img src="./image/QR_Code.png" alt="Download" class="footer__qr">
+                                <div class="footer__app">
+                                    <a href="#">
+                                        <img src="./image/CH-Play.png" alt="Download" class="footer__app-chplay">
+                                    </a>
+                                    <a href="#">
+                                        <img src="./image/AppStore.png" alt="Download" class="footer__app-appstore">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <div class="modal  ">
+            <div class="modal__overlay"></div>
+            <div class="modal__body">
+                <!-- Register Form -->
+                <div class="register js-register">
+                    <div class="box__form ">
+                        <div class="box__form-container">
+                            <div class="box__form-header">
+                                <div class="box__form-heading">Đăng ký</div>
+                                <a href="" class="box__form-switch-login">Đăng nhập</a>
+                            </div>
+
+                            <div class="box__form-fill">
+                                <div class="box__form-fill-group">
+                                    <input type="text" class="box__form-fill-input" placeholder="Nhập email của bạn">
+                                </div>
+                                <div class="box__form-fill-group">
+                                    <input type="password" class="box__form-fill-input" placeholder="Nhập mật khẩu của bạn">
+                                </div>
+                                <div class="box__form-fill-group">
+                                    <input type="password" class="box__form-fill-input" placeholder="Nhập lại mật khẩu của bạn">
+                                </div>
+                            </div>
+                            <div class="box__form-aside">
+                                <p class="box__form-policy--text"> Bằng việc đăng ký, bạn sẽ đồng ý với chúng tôi về
+                                    <a href="" class="box__form-policy--link">Điều khoản dịch vụ</a> và
+                                    <a href="" class="box__form-policy--link">Chính sách bảo mật</a>
+                                </p>
+                            </div>
+                            <div class="box__form-accept">
+                                <button class="btn btn--back">Trở lại</button>
+                                <button class="btn btn--primary">Đăng ký</button>
+                            </div>
+                        </div>
+                        <div class="box__form-socials">
+                            <a href="" class=" ">
+                                <button class="btn__with-icon btn__with-icon-fb ">
+                                    <i class="box__form-socials-icon-size fa-brands fa-facebook-square"></i> 
+                                   <span class="box__form-socials-title">Kết nối Facebook</span>
+                                </button>
+                            </a>
+                            <a href="" class=" ">
+                                <button class="btn__with-icon btn__with-icon-gg">
+                                    <i class="box__form-socials-icon-size fa-brands fa-google"></i> 
+                                  <span class="box__form-socials-title">Kết nối google</span>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Login Form -->
+                <div class="login ">
+                    <div class="box__form">
+                        <div class="box__form-container">
+                            <div class="box__form-header">
+                                <div class="box__form-heading">Đăng nhập</div>
+                                <a href="" class="box__form-switch">Đăng ký</a>
+                            </div>
+
+                            <div class="box__form-fill">
+                                <div class="box__form-fill-group">
+                                    <input type="text" class="box__form-fill-input" placeholder="Nhập email của bạn">
+                                </div>
+                                <div class="box__form-fill-group">
+                                    <input type="password" class="box__form-fill-input" placeholder="Nhập mật khẩu của bạn">
+                                </div>
+
+                            </div>
+                            <div class="box__form-support">
+                                <a href="" class="box__form-support-forgot"> Quên mật khẩu</a>
+                                <a href="" class="box__form-support-help"> Cần hỗ trợ</a>
+                            </div>
+
+                            <div class="box__form-accept">
+                                <button class="btn btn--back">Trở lại</button>
+                                <button class="btn btn--primary">Đăng nhập</button>
+                            </div>
+                        </div>
+                        <div class="box__form-socials">
+                            <a href="" class=" ">
+                                <button class="btn__with-icon btn__with-icon-fb ">
+                                <i class="box__form-socials-icon-size fa-brands fa-facebook-square"></i> 
+                               <span class="box__form-socials-title">Kết nối Facebook</span>
+                            </button>
+                            </a>
+                            <a href="" class=" ">
+                                <button class="btn__with-icon btn__with-icon-gg">
+                                <i class="box__form-socials-icon-size fa-brands fa-google"></i> 
+                              <span class="box__form-socials-title">Kết nối google</span>
+                            </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </body>
+    <script>
+        const user = document.querySelector('.js-header__user-name')
+        const register = document.querySelector('.js-register')
+        const container = document.querySelector('.box__form')
+        const loginButton = document.querySelector('.box__form-switch-login')
+        const login = document.querySelector('.login')
+        user.addEventListener('click', function() {
+            register.classList.add('box__form-open')
+        })
+
+        register.addEventListener('click', function() {
+            register.classList.remove('box__form-open')
+        })
+
+        container.addEventListener('click', function(event) {
+            event.stopPropagation()
+        })
+
+        loginButton.addEventListener('click', function() {
+            register.classList.remove('box__form-open')
+            login.classList.add('box__form-open')
+        })
+    </script>
+
+</html>
